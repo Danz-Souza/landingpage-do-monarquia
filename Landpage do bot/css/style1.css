@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size:100%;
+    /*background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);*/
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #58528e);
+}
+
+tr {
+    text-align: center;
+}
+
+th{
+    color: #aa76ff;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem{
+    height: 72px;
+}
+
+.menu{
+    display: flex;
+    gap: 32px;
+}
+
+.menu-item{
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white
+}
+.comandos_body_titulo{
+    margin-bottom: 48px;
+    padding-top: 40px;
+    border-top: 0.4px solid white;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around
+}
+
+.countainer{
+    border: 10px white;
+}
+.comandos_box{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+
+.comandos_body_1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-spacing: 40px 40px;
+    background-color: #0000004a;
+}
+
+.rodape{
+    display: flex;
+    padding: 32px;
+    
+}
+
+.rodape-imagem{
+    height: 203px;
+    display: block;
+    margin: 0 auto;
+}
